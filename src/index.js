@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ListComponents from './ListComponent';
 import reportWebVitals from './reportWebVitals';
 
-function Test(){
-  return <h1>Hello Word</h1>
-}
+//function Test(){
+//  return <h1>Hello Word</h1>
+//}
 
 ReactDOM.render(
   <React.StrictMode>
-    <Test />
-    <App />
+    <ListComponents />
   </React.StrictMode>,
   document.getElementById('root')
 );
