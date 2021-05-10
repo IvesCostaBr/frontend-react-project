@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Teste 123
+          React e django
         </a>
       </header>
     </div>
