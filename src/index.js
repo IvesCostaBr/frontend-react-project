@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ListComponents from './ListComponent';
 import reportWebVitals from './reportWebVitals';
-
+import UserLists from './UserList'
 //function Test(){
 //  return <h1>Hello Word</h1>
 //}
 
 ReactDOM.render(
   <React.StrictMode>
-    <ListComponents />
+    <UserLists />
   </React.StrictMode>,
   document.getElementById('root')
 );
